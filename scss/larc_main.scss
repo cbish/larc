@@ -1,2 +1,14 @@
 @import "settings";
 @import "foundation";
+
+#bg {position: fixed; top: 0; left: 0;}
+.bgwidth {width: 100%;}
+.bgheight {height: 100%;}
+
+#top-bar-img {
+	height: $topbar-height - 5;
+	padding-bottom: 5px; 
+}
+
+#main-wrapper {
+}
