@@ -68,6 +68,7 @@ $primary-color: #008CBA;
 
 // We use these to make sure border radius matches unless we want it different.
 // $global-radius: 3px;
+$global-radius: 6px;
 // $global-rounded: 1000px;
 
 // We use these to control inset shadow shiny edges and depressions.
@@ -1197,6 +1198,7 @@ $sub-nav-active-cursor: default;
 
 // Height and margin
 // $topbar-height: 45px;
+$topbar-height: 50px;
 // $topbar-margin-bottom: 0;
 
 // Controlling the styles for the title in the top bar
