@@ -5,10 +5,50 @@
 .bgwidth {width: 100%;}
 .bgheight {height: 100%;}
 
+.floating_bird {
+	position:fixed;
+	top:$topbar-height + 10;
+	right:-120px;
+	width:280px;
+	z-index:902;
+}
+
+.bg_gear, .bg_gear2 {
+	display:none;
+	height:400px;
+}
+#gear_set_1 {
+	position:fixed;
+	top:-85px;
+	margin-left:-290px;
+}
+#gear_set_2 {
+	width:412px;
+	position:fixed;
+	bottom:0;
+	margin-left:860px;
+}
+
+.top-bar {
+	clear:both;
+	width:100%;
+	background:#333;
+	border-bottom:5px solid #555;
+	position:fixed;
+	top:0px;
+	z-index:901;
+}
+
 #top-bar-img {
-	height: $topbar-height - 5;
+	height: $topbar-height - 10;
 	padding-bottom: 5px; 
 }
 
 #main-wrapper {
+	margin-top:$topbar-height;
+}
+
+#footer-wrapper{
+	// background-color: #aaa;
+	// background-image: url("../images/backgrounds/grid5.png");
 }

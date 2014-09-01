@@ -8073,7 +8073,53 @@ th.hide-for-touch {
 }
 
 /* line 8, ../scss/larc_main.scss */
+.floating_bird {
+  position: fixed;
+  top: 60px;
+  right: -120px;
+  width: 280px;
+  z-index: 902;
+}
+
+/* line 16, ../scss/larc_main.scss */
+.bg_gear, .bg_gear2 {
+  display: none;
+  height: 400px;
+}
+
+/* line 20, ../scss/larc_main.scss */
+#gear_set_1 {
+  position: fixed;
+  top: -85px;
+  margin-left: -290px;
+}
+
+/* line 25, ../scss/larc_main.scss */
+#gear_set_2 {
+  width: 412px;
+  position: fixed;
+  bottom: 0;
+  margin-left: 860px;
+}
+
+/* line 32, ../scss/larc_main.scss */
+.top-bar {
+  clear: both;
+  width: 100%;
+  background: #333;
+  border-bottom: 5px solid #555;
+  position: fixed;
+  top: 0px;
+  z-index: 901;
+}
+
+/* line 42, ../scss/larc_main.scss */
 #top-bar-img {
-  height: 45px;
+  height: 40px;
   padding-bottom: 5px;
+}
+
+/* line 47, ../scss/larc_main.scss */
+#main-wrapper {
+  margin-top: 50px;
 }
