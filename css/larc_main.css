@@ -8114,12 +8114,36 @@ th.hide-for-touch {
 }
 
 /* line 42, ../scss/larc_main.scss */
-#top-bar-img {
-  height: 40px;
-  padding-bottom: 5px;
+.top-bar img {
+  width: 65%;
+  max-width: 70%;
+  height: auto;
 }
 
-/* line 47, ../scss/larc_main.scss */
+/* line 48, ../scss/larc_main.scss */
 #main-wrapper {
   margin-top: 50px;
+}
+
+/* line 57, ../scss/larc_main.scss */
+.orbit-container .orbit-slides-container img {
+  margin: auto;
+}
+
+/* line 61, ../scss/larc_main.scss */
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+
+/* line 67, ../scss/larc_main.scss */
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
