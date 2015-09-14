@@ -8055,54 +8055,29 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
-/* line 4, ../scss/larc_main.scss */
+/* line 5, ../scss/larc_main.scss */
+.panel {
+  background-color: #fff;
+}
+
+/* line 8, ../scss/larc_main.scss */
 #bg {
   position: fixed;
   top: 0;
   left: 0;
 }
 
-/* line 5, ../scss/larc_main.scss */
+/* line 9, ../scss/larc_main.scss */
 .bgwidth {
   width: 100%;
 }
 
-/* line 6, ../scss/larc_main.scss */
+/* line 10, ../scss/larc_main.scss */
 .bgheight {
   height: 100%;
 }
 
-/* line 8, ../scss/larc_main.scss */
-.floating_bird {
-  position: fixed;
-  top: 60px;
-  right: -120px;
-  width: 280px;
-  z-index: 902;
-}
-
-/* line 16, ../scss/larc_main.scss */
-.bg_gear, .bg_gear2 {
-  display: none;
-  height: 400px;
-}
-
-/* line 20, ../scss/larc_main.scss */
-#gear_set_1 {
-  position: fixed;
-  top: -85px;
-  margin-left: -290px;
-}
-
-/* line 25, ../scss/larc_main.scss */
-#gear_set_2 {
-  width: 412px;
-  position: fixed;
-  bottom: 0;
-  margin-left: 860px;
-}
-
-/* line 32, ../scss/larc_main.scss */
+/* line 13, ../scss/larc_main.scss */
 .top-bar {
   clear: both;
   width: 100%;
@@ -8113,13 +8088,53 @@ th.hide-for-touch {
   z-index: 901;
 }
 
-/* line 42, ../scss/larc_main.scss */
+/* line 23, ../scss/larc_main.scss */
 #top-bar-img {
-  height: 40px;
+  height: 28px;
   padding-bottom: 5px;
 }
 
-/* line 47, ../scss/larc_main.scss */
+/* line 28, ../scss/larc_main.scss */
 #main-wrapper {
   margin-top: 50px;
+}
+
+/* line 38, ../scss/larc_main.scss */
+.floating_bird {
+  position: fixed;
+  top: 60px;
+  right: -120px;
+  width: 280px;
+  z-index: 902;
+}
+
+/* line 46, ../scss/larc_main.scss */
+.bg_gear, .bg_gear2 {
+  display: none;
+  height: 400px;
+}
+
+/* line 50, ../scss/larc_main.scss */
+#gear_set_1 {
+  position: fixed;
+  top: -85px;
+  margin-left: -290px;
+}
+
+/* line 55, ../scss/larc_main.scss */
+#gear_set_2 {
+  width: 412px;
+  position: fixed;
+  bottom: 0;
+  margin-left: 860px;
+}
+
+/* line 63, ../scss/larc_main.scss */
+.top-mobile-banner img {
+  margin: 20px 0 30px 0;
+}
+
+/* line 65, ../scss/larc_main.scss */
+.fb-photos-container {
+  padding-top: 0;
 }

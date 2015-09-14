@@ -1,10 +1,40 @@
 @import "settings";
 @import "foundation";
 
+//foundation overrrides
+.panel {background-color:#fff;}
+
+//globals
 #bg {position: fixed; top: 0; left: 0;}
 .bgwidth {width: 100%;}
 .bgheight {height: 100%;}
 
+//nav
+.top-bar {
+	clear:both;
+	width:100%;
+	background:#333;
+	border-bottom:5px solid #555;
+	position:fixed;
+	top:0px;
+	z-index:901;
+}
+
+#top-bar-img {
+	height: $topbar-height - 22;
+	padding-bottom: 5px; 
+}
+
+#main-wrapper {
+	margin-top:$topbar-height;
+}
+
+#footer-wrapper{
+	// background-color: #aaa;
+	// background-image: url("../images/backgrounds/grid5.png");
+}
+
+//moving stuff
 .floating_bird {
 	position:fixed;
 	top:$topbar-height + 10;
@@ -29,26 +59,7 @@
 	margin-left:860px;
 }
 
-.top-bar {
-	clear:both;
-	width:100%;
-	background:#333;
-	border-bottom:5px solid #555;
-	position:fixed;
-	top:0px;
-	z-index:901;
-}
+//page content
+.top-mobile-banner img{margin:20px 0 30px 0;}
 
-#top-bar-img {
-	height: $topbar-height - 10;
-	padding-bottom: 5px; 
-}
-
-#main-wrapper {
-	margin-top:$topbar-height;
-}
-
-#footer-wrapper{
-	// background-color: #aaa;
-	// background-image: url("../images/backgrounds/grid5.png");
-}
+.fb-photos-container{padding-top:0;}
